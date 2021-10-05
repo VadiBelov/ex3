@@ -1,0 +1,96 @@
+body {
+  padding-left: 11em;
+  font-family: Georgia, "Times New Roman",
+        Times, serif;
+  color: black;
+  background-color: #B0C4DE}
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em }
+h1 {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif }
+ul.navbar li {
+  background: white;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid black }
+ul.navbar a {
+  text-decoration: none }
+a:link {
+  color: green}
+a:visited {
+  color: black }
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted }
+  .page
+
+  display:flex;
+  flex-direction:column;
+  flex:3'
+}
+.page :nth-child(1)
+{
+  order: 1;
+}
+.page :nth-child(3)
+{
+  order: 2;
+}
+
+.page :nth-child(2)
+{
+  order: 3;
+}
+
+
+@media screen and (min-width: 800px) and (orientation: landscape) 
+{
+  .header {
+    flex-direction: row;
+  }
+nav 
+{
+    text-align: center;
+}
+  nav div
+{
+    margin: 0 auto;
+} 
+
+  #menu a
+{
+    margin-right: 50px;
+}
+.page{
+  margin: 0 auto;
+  padding: 10px;
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+}
+.page :nth-child(1)
+{
+  order: 1;
+}
+  .page :nth-child(2)
+{
+    order: 2;
+}
+
+  .page :nth-child(3)
+{
+    order: 3;
+}
+
+  .form
+{
+    width: 540px;
+}
