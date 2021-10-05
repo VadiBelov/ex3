@@ -1,37 +1,70 @@
-body {
-  padding-left: 11em;
-  font-family: Georgia, "Times New Roman",
-        Times, serif;
-  color: black;
-  background-color: #B0C4DE}
-ul.navbar {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  position: absolute;
-  top: 2em;
-  left: 1em;
-  width: 9em }
-h1 {
-  font-family: Helvetica, Geneva, Arial,
-        SunSans-Regular, sans-serif }
-ul.navbar li {
-  background: white;
-  margin: 0.5em 0;
-  padding: 0.3em;
-  border-right: 1em solid black }
-ul.navbar a {
-  text-decoration: none }
-a:link {
-  color: green}
-a:visited {
-  color: black }
-address {
-  margin-top: 1em;
-  padding-top: 1em;
-  border-top: thin dotted }
-  .page
+html 
+{
+   background-color:#778899
+}
+header 
+{
+   background-color: #B0C4DE;
+   padding: 10px;
+   height:120px;
+   max-width: 960px;
+   margin: 0 auto;
+}
+#name 
+{
+   vertical-align:middle;
+   text-align: center;
+}
+#logo 
+{
+   weight:100px;
+   height:100px;
+}
+#bp
+{
+   width:70%;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  clear: both;
+  width: 100%;
+  text-align: center;
+}
+div.vse 
+{
+   max-width:800px;
+   margin: 0 auto;
+   margin-top:20px;
+   padding:10px;
+}
+footer 
+{
+  font-size: 16pt;
+  font-family: "Courier New", monotype;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 120%;
+  margin:50px;
+  padding:10px;
+  text-align: center;
+  max-width: 960px;
+}
+tr.colorr 
+{
+  background:#B0C4DE;
+}
 
+table 
+{
+  background: #D190C3;
+}
+ol 
+{
+   font-size: 12pt;
+}
+.page
+{
   display:flex;
   flex-direction:column;
   flex:3'
@@ -49,8 +82,6 @@ address {
 {
   order: 3;
 }
-
-
 @media screen and (min-width: 800px) and (orientation: landscape) 
 {
   .header {
@@ -93,4 +124,5 @@ nav
   .form
 {
     width: 540px;
+}
 }
