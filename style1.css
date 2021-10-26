@@ -26,12 +26,12 @@ header
 }
 nav {
   display: flex;
-  flex-direction: row;
+  flex-direction:column;
   clear: both;
   width: 100%;
   text-align: center;
 }
-div.vse 
+#vse 
 {
    max-width:800px;
    margin: 0 auto;
@@ -50,46 +50,32 @@ footer
   text-align: center;
   max-width: 960px;
 }
-tr.colorr 
-{
-  background:#B0C4DE;
-}
 
 table 
 {
   background: #D190C3;
 }
+tr.colorr 
+{
+  background:#B0C4DE;
+}
 ol 
 {
    font-size: 12pt;
 }
-.page
-{
-  display:flex;
-  flex-direction:column;
-  flex:3'
-}
-.page :nth-child(1)
-{
-  order: 1;
-}
-.page :nth-child(3)
-{
-  order: 2;
-}
 
-.page :nth-child(2)
-{
-  order: 3;
-}
 @media screen and (min-width: 800px) and (orientation: landscape) 
 {
-  .header {
+  header {
     flex-direction: row;
   }
 nav 
 {
-    text-align: center;
+  display: flex;
+  flex-direction:row;
+  clear: both;
+  width: 100%;
+  text-align: center;
 }
   nav div
 {
@@ -99,30 +85,5 @@ nav
   #menu a
 {
     margin-right: 50px;
-}
-.page{
-  margin: 0 auto;
-  padding: 10px;
-  padding-top: 0;
-  display: flex;
-  flex-direction: column;
-}
-.page :nth-child(1)
-{
-  order: 1;
-}
-  .page :nth-child(2)
-{
-    order: 2;
-}
-
-  .page :nth-child(3)
-{
-    order: 3;
-}
-
-  .form
-{
-    width: 540px;
 }
 }
